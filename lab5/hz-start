@@ -1,0 +1,2 @@
+#!/bin/bash
+JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home}" exec "/opt/homebrew/Cellar/hazelcast@5.3.1/5.3.1/libexec/bin/hz-start"  "$@"
